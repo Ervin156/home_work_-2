@@ -1,0 +1,27 @@
+
+button{
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 140px;
+    margin: 20px 0 20px 0;
+    outline-style: none;
+    text-transform: uppercase;
+    font-style: normal;
+    transition: 0.7s;
+}
+#color_place{
+    /* background-color: red; */
+    border: 1px solid gray;
+    height: 100px;
+    width: 140px;
+    padding: 0;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    
+}
+button:hover{
+    
+    box-shadow: -2px 4px 7px rgb(112, 112, 253);
+    transform:translateY(-3px);
+}
